@@ -1,0 +1,13 @@
+
+# Dependencies and build output
+client/node_modules/
+client/dist/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+server/config/db.php
+
+# Database backups
+*.sql
