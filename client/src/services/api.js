@@ -1,7 +1,8 @@
+
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost/PG-Hub/server/api/",
+  baseURL: "https://anupama1411.infinityfree.me/server/api/",
 });
 
 export default api;
